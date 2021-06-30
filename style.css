@@ -1,0 +1,77 @@
+header{
+    background-image: url(/place/head.jpg);
+    height: 100px;
+    width: auto;
+    padding: 50px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(3, 34, 92);
+    font-weight: bold;
+    
+
+}
+header p:hover{
+    cursor: pointer;
+    color: rgba(38, 107, 7, 0.979);
+   
+}
+div#heading{
+    padding: 10px;
+    background-color: cadetblue;
+    text-align: center;
+    font-family: monospace;
+    word-spacing: 20px;
+    
+}
+
+div a{
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: auto;
+ 
+    
+}
+div a:hover{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    background-color: rgb(13, 97, 100)
+}
+
+
+
+header a:hover{
+    padding: auto;
+    background-color: rgb(47, 228, 213);
+    border-radius:10px;
+}
+
+
+img{
+    padding: 30px;
+   
+}
+
+.background{
+    padding:10px;
+    justify-content: center;
+    border-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.lower{
+    background-color: whitesmoke;
+}
+img{
+    border-radius: 100px;
+    
+}
+img:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+
+}

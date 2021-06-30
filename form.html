@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<header style="border: 10px; border-style: groove; border-color: rgb(14, 15, 13); color: rgb(0, 132, 255); text-align: center; font-size: 40px; ">
+    Application to visit Nepal
+</header>
+<body>
+    <form>
+        <fieldset style="color: darkblue; font-size: 20px;">
+            <legend style="font-size: 30px;">Visit nepal 2022</legend>
+            <label for="name" aria-required="true">First Name
+                <input type="text" id="name" name="fname" placeholder="sushil" required>
+                Last Name <input type="text" id="name" name="lname" placeholder="gyawali" required>
+               
+            </label>
+            <br>
+            <p>Gender:<br><input type="radio" name="name" id="sex">Male <br><input type="radio" name="name" id="sex" required>Female</p>
+            <p>Email <input type="email" name="email" id="email" placeholder="sushil@gmail.com" required></p>
+            <p>Photo citizenship/driving-liscenes:  <input type="file" name="file" id="file" required> </p>
+            <p>Mobile Number <input type="number" name="number" id="number"></p>
+           
+            <select style="border-radius: 20px; font-size: 20px;">
+                <option value="" >--select-country--</option>
+                <option value="Nepal" >Nepal</option>
+                <option value="USA" >USA</option>
+                <option value="China" >China</option>
+                <option value="Brazil" >Brazil</option>
+                <option value="India" >India</option>
+            </select>
+            
+            <p><input type="submit" value="submit" style="padding: 10px; background-color: rgb(0, 139, 86); font-size: medium; border-radius: 20px;">  <input type="reset" value="reset" style="padding: 10px; background-color: rgb(0, 139, 86); font-size: medium; border-radius: 20px;"></p>
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
